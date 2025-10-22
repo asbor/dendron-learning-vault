@@ -12,6 +12,8 @@ cat canada.txt | head -n 5
 
 This command displays the first 5 lines of the `canada.txt` file.
 
+![Output of cat canada.txt | head -n 5](../../../assets/images/unix-workbench/image-10.png)
+
 ### Pattern Matching with Counting
 
 ```bash
@@ -19,6 +21,8 @@ grep "[aeiou]$" states.txt | wc -l
 ```
 
 This command finds all lines ending with vowels in `states.txt` and counts them.
+
+![Output of grep pattern with word count](../../../assets/images/unix-workbench/image-11.png)
 
 ### Listing with Filtering
 

@@ -57,6 +57,8 @@ Now let's run make with readme.txt as the target:
 make readme.txt
 ```
 
+![Make command execution example](../../../assets/images/unix-workbench/image-12.png)
+
 When we update the table of contents:
 
 ```bash

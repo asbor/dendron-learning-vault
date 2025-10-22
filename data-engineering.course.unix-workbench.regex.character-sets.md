@@ -49,6 +49,10 @@ The regular expression `[abc]` matches any string that contains either the chara
 grep -E '[abc]' small.txt
 ```
 
+Output:
+
+![Character set [abc] example](../../../assets/images/unix-workbench/image.png)
+
 ### Example 2: Lowercase Range
 
 The regular expression `[a-z]` matches any string that contains a lowercase letter.
@@ -56,6 +60,10 @@ The regular expression `[a-z]` matches any string that contains a lowercase lett
 ```bash
 grep -E '[a-z]' small.txt
 ```
+
+Output:
+
+![Lowercase range [a-z] example](../../../assets/images/unix-workbench/image-1.png)
 
 ### Example 3: Uppercase Range
 
@@ -65,6 +73,10 @@ The regular expression `[A-Z]` matches any string that contains an uppercase let
 grep -E '[A-Z]' small.txt
 ```
 
+Output:
+
+![Uppercase range [A-Z] example](../../../assets/images/unix-workbench/image-2.png)
+
 ### Example 4: Alphanumeric
 
 The regular expression `[a-zA-Z0-9]` matches any string that contains letters or digits.
@@ -72,6 +84,10 @@ The regular expression `[a-zA-Z0-9]` matches any string that contains letters or
 ```bash
 grep -E '[a-zA-Z0-9]' small.txt
 ```
+
+Output:
+
+![Alphanumeric range [a-zA-Z0-9] example](../../../assets/images/unix-workbench/image-3.png)
 
 ## Summary
 
