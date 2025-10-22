@@ -19,6 +19,23 @@ This Dendron vault contains my personal learning materials, course notes, and te
 - **[[data-engineering.nosql]]** - NoSQL database concepts, types, and architecture  
 - **[[data-engineering.skills-pathway]]** - Full data engineer learning roadmap
 
+### Learning Resources
+[[learning]] - Conference notes, development tools, and educational content:
+
+- **[[learning.conferences]]** - Openslava 2024 conference sessions and insights
+- **[[learning.tools]]** - Development tools and documentation utilities
+
+### Knowledge Base
+[[knowledge]] - Technical guides, setup documentation, and reference materials:
+
+- **[[knowledge.sql]]** - SQL tutorials and database reference materials
+- **[[knowledge.setup]]** - Configuration guides and troubleshooting
+
+### Professional Development
+[[professional]] - Work-related training and technical documentation:
+
+- **[[professional.onboarding]]** - Technical onboarding and skill development
+
 ### Getting Started
 - [[tutorial]] - Dendron tutorial and basic operations
 
