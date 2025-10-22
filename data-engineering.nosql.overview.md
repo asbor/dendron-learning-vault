@@ -125,24 +125,33 @@ gantt
 ### Core Benefits
 
 ```mermaid
-mindmap
-  root((NoSQL Benefits))
-    Flexible Data Model
-      Unstructured Data
-      Semi-structured Data
-      Schema Evolution
-    Horizontal Scaling
-      Add More Servers
-      Distribute Load
-      Handle Growth
-    Developer Productivity
-      Match App Needs
-      Faster Development
-      Natural Data Structures
-    High Availability
-      Distributed Systems
-      Fault Tolerance
-      No Single Point of Failure
+graph TB
+    A[NoSQL Benefits] --> B[Flexible Data Model]
+    A --> C[Horizontal Scaling]
+    A --> D[Developer Productivity]
+    A --> E[High Availability]
+
+    B --> B1[Unstructured Data]
+    B --> B2[Semi-structured Data]
+    B --> B3[Schema Evolution]
+
+    C --> C1[Add More Servers]
+    C --> C2[Distribute Load]
+    C --> C3[Handle Growth]
+
+    D --> D1[Match App Needs]
+    D --> D2[Faster Development]
+    D --> D3[Natural Data Structures]
+
+    E --> E1[Distributed Systems]
+    E --> E2[Fault Tolerance]
+    E --> E3[No Single Point of Failure]
+
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ### 1. 🔄 Flexible Data Model

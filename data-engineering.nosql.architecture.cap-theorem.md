@@ -25,20 +25,26 @@ After completing this lesson, you will be able to:
 In the early 2000s, the technology landscape was transforming rapidly:
 
 ```mermaid
-timeline
+gantt
     title Evolution of Distributed Systems
-    
-    2000 : Professor Eric Brewer introduces CAP Theorem
-         : Need for globally distributed services emerges
-    
-    2002 : MIT professors formalize CAP Theorem proof
-         : Hadoop architecture development begins
-    
-    2004-2006 : Big Data challenges become mainstream
-              : NoSQL databases start emerging
-    
-    2007-2010 : Cloud computing adoption accelerates
-              : Web-scale applications demand new solutions
+    dateFormat X
+    axisFormat %s
+
+    section Early Development
+    CAP Theorem Introduction     :2000, 2002
+    Distributed Services Need    :2000, 2003
+
+    section Formalization
+    MIT CAP Proof               :2002, 2004
+    Hadoop Development          :2002, 2006
+
+    section Mainstream Adoption
+    Big Data Challenges         :2004, 2007
+    NoSQL Emergence            :2005, 2008
+
+    section Scale Solutions
+    Cloud Computing Growth      :2007, 2012
+    Web-scale Applications      :2008, 2015
 ```
 
 ### The Challenge
