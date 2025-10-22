@@ -8,6 +8,15 @@ created: 1698001200000
 
 This section contains professional development materials, onboarding documentation, and work-related technical guides.
 
+## Skills Assessment
+
+Comprehensive evaluation of professional skills and competencies:
+
+- [[professional.skills-assessment]] - Personal skills assessment and development planning
+- [[professional.skills-assessment.programming]] - Programming languages and development skills
+- [[professional.skills-assessment.cloud-infrastructure]] - Cloud platforms and infrastructure technologies  
+- [[professional.skills-assessment.data-analytics]] - Database technologies and data analysis capabilities
+
 ## Onboarding Materials
 
 Technical onboarding and training resources:

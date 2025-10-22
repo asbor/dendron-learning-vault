@@ -2,7 +2,7 @@
 id: learning.conferences.openslava-2024
 title: Openslava 2024 Conference
 desc: "Sessions and talks from Openslava 2024 conference"
-updated: 1698001200000
+updated: 1761145839006
 created: 1698001200000
 ---
 

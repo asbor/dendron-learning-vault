@@ -8,6 +8,19 @@ schemas:
     namespace: true
     children:
       - onboarding
+      - skills-assessment
+
+  # Skills assessment
+  - id: skills-assessment
+    title: Skills Assessment
+    desc: "Personal skills evaluation and professional development planning"
+    children:
+      - programming
+      - cloud-infrastructure
+      - data-analytics
+      - security-networking
+      - soft-skills
+      - methodology
 
   # Onboarding materials
   - id: onboarding
