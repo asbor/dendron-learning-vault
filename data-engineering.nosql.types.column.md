@@ -78,20 +78,27 @@ graph TB
 ### Column Families Structure
 
 ```mermaid
-mindmap
-  root((Column Family))
-    Rows
-      Unique Key/ID
-      Variable Columns
-      Sparse Data
-    Columns
-      Grouped in Families
-      Accessed Together
-      Optional per Row
-    Flexibility
-      No Fixed Schema
-      Dynamic Addition
-      Row-Level Variation
+graph TB
+    A[Column Family] --> B[Rows]
+    A --> C[Columns]
+    A --> D[Flexibility]
+    
+    B --> B1[Unique Key/ID]
+    B --> B2[Variable Columns]
+    B --> B3[Sparse Data]
+    
+    C --> C1[Grouped in Families]
+    C --> C2[Accessed Together]
+    C --> C3[Optional per Row]
+    
+    D --> D1[No Fixed Schema]
+    D --> D2[Dynamic Addition]
+    D --> D3[Row-Level Variation]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ### Data Organization Principles
@@ -361,24 +368,33 @@ ORDER BY premium_range;
 ### IoT Data Characteristics
 
 ```mermaid
-mindmap
-  root((IoT Data))
-    Volume
-      Continuous Generation
-      Massive Scale
-      Time-Series Nature
-    Variety
-      Multiple Device Types
-      Different Data Formats
-      Varying Frequencies
-    Velocity
-      Real-time Streaming
-      Near Real-time Analysis
-      Immediate Insights
-    Value
-      Operational Metrics
-      Predictive Analytics
-      Compliance Reporting
+graph TB
+    A[IoT Data] --> B[Volume]
+    A --> C[Variety]
+    A --> D[Velocity]
+    A --> E[Value]
+    
+    B --> B1[Continuous Generation]
+    B --> B2[Massive Scale]
+    B --> B3[Time-Series Nature]
+    
+    C --> C1[Multiple Device Types]
+    C --> C2[Different Data Formats]
+    C --> C3[Varying Frequencies]
+    
+    D --> D1[Real-time Streaming]
+    D --> D2[Near Real-time Analysis]
+    D --> D3[Immediate Insights]
+    
+    E --> E1[Operational Metrics]
+    E --> E2[Predictive Analytics]
+    E --> E3[Compliance Reporting]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ### Commercial Truck IoT Example

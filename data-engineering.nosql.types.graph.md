@@ -146,24 +146,33 @@ graph TD
 ### 🎯 Core Strengths
 
 ```mermaid
-mindmap
-  root((Graph Database Strengths))
-    Relationship Traversal
-      Fast Navigation
-      Efficient Queries
-      Natural Modeling
-    ACID Compliance
-      Data Integrity
-      Consistent State
-      No Dangling References
-    Complex Queries
-      Pattern Matching
-      Path Finding
-      Network Analysis
-    Intuitive Model
-      Natural Representation
-      Easy Visualization
-      Domain Alignment
+graph TB
+    A[Graph Database Strengths] --> B[Relationship Traversal]
+    A --> C[ACID Compliance]
+    A --> D[Complex Queries]
+    A --> E[Intuitive Model]
+    
+    B --> B1[Fast Navigation]
+    B --> B2[Efficient Queries]
+    B --> B3[Natural Modeling]
+    
+    C --> C1[Data Integrity]
+    C --> C2[Consistent State]
+    C --> C3[No Dangling References]
+    
+    D --> D1[Pattern Matching]
+    D --> D2[Path Finding]
+    D --> D3[Network Analysis]
+    
+    E --> E1[Natural Representation]
+    E --> E2[Easy Visualization]
+    E --> E3[Domain Alignment]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 #### 1. **Efficient Graph Traversal**

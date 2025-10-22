@@ -18,28 +18,38 @@ You have successfully completed **Module-01: NoSQL Database Fundamentals**! This
 ### 🧬 Core Concepts Mastered
 
 ```mermaid
-mindmap
-  root((NoSQL Mastery))
-    ACID vs BASE
-      Atomicity
-      Consistency  
-      Isolation
-      Durability
-      vs
-      Basic Availability
-      Soft State
-      Eventual Consistency
-    Database Types
-      Key-Value
-      Document
-      Column-Family
-      Graph
-      Vector
-    Advanced Topics
-      CAP Theorem
-      Distributed Systems
-      Migration Strategies
-      Design Patterns
+graph TB
+    A[NoSQL Mastery] --> B[ACID vs BASE]
+    A --> C[Database Types]
+    A --> D[Advanced Topics]
+    
+    B --> B1[ACID Properties]
+    B --> B2[BASE Properties]
+    
+    B1 --> B1A[Atomicity]
+    B1 --> B1B[Consistency]
+    B1 --> B1C[Isolation]
+    B1 --> B1D[Durability]
+    
+    B2 --> B2A[Basic Availability]
+    B2 --> B2B[Soft State]
+    B2 --> B2C[Eventual Consistency]
+    
+    C --> C1[Key-Value]
+    C --> C2[Document]
+    C --> C3[Column-Family]
+    C --> C4[Graph]
+    C --> C5[Vector]
+    
+    D --> D1[CAP Theorem]
+    D --> D2[Distributed Systems]
+    D --> D3[Migration Strategies]
+    D --> D4[Design Patterns]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ### 📚 What You've Learned

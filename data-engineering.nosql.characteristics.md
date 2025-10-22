@@ -93,24 +93,33 @@ graph LR
 ### 🏗️ Technical Commonalities
 
 ```mermaid
-mindmap
-  root((NoSQL Characteristics))
-    Horizontal Scaling
-      Distributed Architecture
-      Data Sharding
-      Global Unique Keys
-    Specialized Use Cases
-      Optimized Performance
-      Specific Data Models
-      Target Applications
-    Flexible Development
-      Schema Evolution
-      Agile Development
-      Easy Data Modeling
-    Open Source Heritage
-      Community Driven
-      Rapid Innovation
-      Cost Effective
+graph TB
+    A[NoSQL Characteristics] --> B[Horizontal Scaling]
+    A --> C[Specialized Use Cases]
+    A --> D[Flexible Development]
+    A --> E[Open Source Heritage]
+    
+    B --> B1[Distributed Architecture]
+    B --> B2[Data Sharding]
+    B --> B3[Global Unique Keys]
+    
+    C --> C1[Optimized Performance]
+    C --> C2[Specific Data Models]
+    C --> C3[Target Applications]
+    
+    D --> D1[Schema Evolution]
+    D --> D2[Agile Development]
+    D --> D3[Easy Data Modeling]
+    
+    E --> E1[Community Driven]
+    E --> E2[Rapid Innovation]
+    E --> E3[Cost Effective]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ### Key Technical Features
