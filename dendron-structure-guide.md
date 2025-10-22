@@ -18,7 +18,7 @@ created: 1729601745270
 
 ```
 ❌ Traditional Folder Structure:
-data-engineering/
+education.orange-business.data-engineering/
   ├── nosql/
   │   ├── types/
   │   │   ├── document.md
@@ -27,9 +27,9 @@ data-engineering/
   │       └── acid-vs-base.md
 
 ✅ Dendron Structure:
-data-engineering.nosql.types.document.md
-data-engineering.nosql.types.key-value.md
-data-engineering.nosql.architecture.acid-vs-base.md
+education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document.md
+education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.key-value.md
+education.orange-business.education.orange-business.data-engineering.nosql.architecture.acid-vs-base.md
 ```
 
 ### Why This Approach Works
@@ -72,7 +72,7 @@ graph LR
     style D fill:#2196F3,color:#fff
 ```
 
-**Example**: Type "nosql doc" to instantly find `data-engineering.nosql.types.document.md`
+**Example**: Type "nosql doc" to instantly find `education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document.md`
 
 ### 2. **No Folder Clutter** 🗂️
 
@@ -97,7 +97,7 @@ graph TB
 Your vault maintains perfect organization through naming:
 
 ```
-data-engineering              # Root topic
+education.orange-business.data-engineering              # Root topic
 ├── .course                   # Course section
 │   ├── .introduction         # Subsection
 │   └── .overview            # Subsection
@@ -157,13 +157,13 @@ Dendron's tree view shows your hierarchy visually:
 
 ```
 Type: "eng nosql doc"
-Finds: data-engineering.nosql.types.document.md
+Finds: education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document.md
 
 Type: "cap"
-Finds: data-engineering.nosql.architecture.cap-theorem.md
+Finds: education.orange-business.education.orange-business.data-engineering.nosql.architecture.cap-theorem.md
 
 Type: "acid"
-Finds: data-engineering.nosql.architecture.acid-vs-base.md
+Finds: education.orange-business.education.orange-business.data-engineering.nosql.architecture.acid-vs-base.md
 ```
 
 ### Graph View
@@ -210,9 +210,9 @@ graph TB
 
 ```
 ✅ Good:
-data-engineering.nosql.types.document.md
-data-engineering.nosql.types.key-value.md
-data-engineering.nosql.types.column.md
+education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document.md
+education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.key-value.md
+education.orange-business.education.orange-business.data-engineering.nosql.types.column.md
 
 ❌ Bad:
 nosql-document.md
@@ -249,7 +249,7 @@ schemas:
 
 ```yaml
 ---
-id: data-engineering.nosql.types.document
+id: education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document
 title: Document Databases
 tags: [nosql, database, document-db, mongodb]
 ---
@@ -280,9 +280,9 @@ graph LR
 ### Linking Notes
 
 ```markdown
-[[data-engineering.nosql.types.document]]
-[[data-engineering.nosql.architecture.acid-vs-base]]
-[[data-engineering.course.overview]]
+[[education.orange-business.education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document]]
+[[education.orange-business.education.orange-business.data-engineering.nosql.architecture.acid-vs-base]]
+[[education.orange-business.data-engineering.course.overview]]
 ```
 
 Dendron handles the rest!
@@ -292,7 +292,7 @@ Dendron handles the rest!
 ### Analysis of Your Vault
 
 ```
-✅ Clear hierarchy: data-engineering.nosql.types.document
+✅ Clear hierarchy: education.orange-business.education.orange-business.education.orange-business.education.orange-business.data-engineering.nosql.types.document
 ✅ Consistent naming: All follow same pattern
 ✅ Logical grouping: Related concepts together
 ✅ Scalable: Easy to add more sections

@@ -1,0 +1,182 @@
+version: 1
+schemas:
+  # Academic studies domain
+  - id: education.academic
+    title: Academic Studies
+    desc: "University coursework, degree programs, and formal assessments"
+    parent: education
+    namespace: true
+    children:
+      - data-science
+
+  # Data science track
+  - id: education.academic.data-science
+    title: Data Science
+    desc: "Data science courses, projects, and learning materials"
+    parent: education.academic
+    namespace: true
+    children:
+      - iu-dlmbdsa01
+      - iau-intelligent-analysis
+      - projects
+      - resources
+
+  # IU Data Science Course - DLMBDSA01
+  - id: iu-dlmbdsa01
+    title: IU Data Science DLMBDSA01
+    desc: "IU International University Data Science course"
+    children:
+      - introduction
+      - use-cases-evaluation
+      - data-preprocessing
+      - data-processing
+      - mathematical-techniques
+      - ai-techniques
+      - exam-prep
+
+  # Module 1: Introduction to Data Science
+  - id: introduction
+    title: Module 1 - Introduction
+    desc: "Foundations of data science and machine learning"
+    children:
+      - study-goals
+      - overview
+      - machine-learning
+      - activities
+      - data-sources
+      - descriptive-stats
+      - summary
+      - slides
+
+  # Module 2: Use Cases and Performance Evaluation
+  - id: use-cases-evaluation
+    title: Module 2 - Use Cases & Evaluation
+    desc: "Use cases, evaluation techniques, and performance metrics"
+    children:
+      - study-goals
+      - introduction
+      - dsucs
+      - performance
+      - summary
+      - slides
+
+  # Module 3: Data Pre-processing
+  - id: data-preprocessing
+    title: Module 3 - Data Preprocessing
+    desc: "Data quality, cleansing, transformation, and visualization"
+    children:
+      - study-goals
+      - introduction
+      - transmission
+      - quality-cleansing
+      - visualization
+      - summary
+      - slides
+      - codes
+
+  # Module 4: Processing of Data
+  - id: data-processing
+    title: Module 4 - Data Processing
+    desc: "Stages, methods, and output formats for processing data"
+    children:
+      - study-goals
+      - introduction
+      - stages
+      - methods-types
+      - output-formats
+      - summary
+      - slides
+      - codes
+
+  # Module 5: Selected Mathematical Techniques
+  - id: mathematical-techniques
+    title: Module 5 - Mathematical Techniques
+    desc: "PCA, clustering, regression, and time-series forecasting"
+    children:
+      - study-goals
+      - introduction
+      - pca
+      - clustering
+      - 09-1-linear-regression-and-logistic-regression
+      - time-series
+      - transformations
+      - summary
+      - slides
+      - codes
+
+  # Module 6: AI Techniques
+  - id: ai-techniques
+    title: Module 6 - AI Techniques
+    desc: "Support Vector Machines, neural networks, and related methods"
+    children:
+      - study-goals
+      - introduction
+      - svm
+      - neural-networks
+      - further-approaches
+      - summary
+      - slides
+      - codes
+
+  # Module 7: Exam Preparation
+  - id: exam-prep
+    title: Module 7 - Exam Preparation
+    desc: "Exam examples, practice problems, and guidelines"
+    children:
+      - examples
+      - guidelines
+
+  # IAU Intelligent Data Analysis Course
+  - id: iau-intelligent-analysis
+    title: IAU Intelligent Data Analysis
+    desc: "IAU Bachelor course on intelligent data analysis"
+    children:
+      - lectures
+      - exercises
+      - projects
+
+  # IAU Lectures
+  - id: lectures
+    title: Lectures
+    desc: "Lecture materials and presentation slides"
+    children:
+      - 00-1-course-organization
+      - 01-1-introduction-to-data-science
+      - 02-1-introduction-to-data-processing-in-python
+      - 04-1-data-collection-and-data-integration
+      - 05-1-exploratory-data-analysis-using-statistical-analysis
+      - 06-1-data-cleaning-and-data-preprocessing
+      - 07-1-preprocessing-of-textual-data
+      - 08-1-performance-evaluation-and-model-selection
+      - 09-1-linear-regression-and-logistic-regression
+      - 10-1-decision-trees
+      - 11-1-numerical-optimization-and-simulations
+      - 12-1-deep-learning-and-big-data-processing
+      - 12-2-advanced-topics-in-data-science-and-artificial-intelligence
+
+  # IAU Exercises
+  - id: exercises
+    title: Practical Exercises
+    desc: "Weekly hands-on exercises and assignments"
+    children:
+      - week-01
+      - week-02
+      - week-03
+      - week-04
+      - week-05
+      - week-06
+      - week-07
+      - week-08
+      - week-09
+      - week-10
+      - week-11
+      - week-12
+
+  # Projects and resources placeholders
+  - id: projects
+    title: Projects
+    desc: "Data science project implementations"
+
+  - id: resources
+    title: Resources
+    desc: "Supplementary materials, papers, and references"

@@ -33,4 +33,4 @@ This section contains notes and insights from sessions at the Openslava 2024 con
 ## Navigation
 
 - **Parent**: [[learning.conferences]] - Conference Notes
-- **Related**: [[data-engineering.nosql]] - NoSQL Database Concepts
+- **Related**: [[education.orange-business.data-engineering.nosql]] - NoSQL Database Concepts

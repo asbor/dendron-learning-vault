@@ -111,4 +111,4 @@ This assessment data represents a comprehensive review of technical and business
 
 - **Parent**: [[professional.skills-assessment]] - Personal Skills Assessment
 - **Related**: [[professional.skills-assessment.programming]] - Programming Skills Detail
-- **See Also**: [[data-engineering.skills-pathway]] - Learning Roadmap
+- **See Also**: [[education.orange-business.data-engineering.skills-pathway]] - Learning Roadmap

@@ -1,60 +1,42 @@
 ---
 id: professional
 title: Professional Development
-desc: "Work-related onboarding, training, and technical documentation"
-updated: 1698001200000
+desc: "Career history, skill assessments, and workplace reflections"
+updated: 1761162000000
 created: 1698001200000
 ---
 
-This section contains professional development materials, onboarding documentation, and work-related technical guides.
+# Professional Development
+
+This area captures work experience, competency tracking, and reflections that connect day-to-day responsibilities with long-term goals.
 
 ## Professional Experience
 
 Career progression and role history:
 
-- [[professional.experience]] - Complete career history from electrical apprentice to senior software engineer
+- [[professional.experience]] – Detailed timeline from electrical apprentice to senior software engineer.
+- [[professional.experience-skills-alignment]] – Mapping project outcomes to core skills and future growth areas.
 
 ## Skills Assessment
 
 Comprehensive evaluation of professional skills and competencies:
 
-- [[professional.skills-assessment]] - Personal skills assessment and development planning
-- [[professional.skills-assessment.programming]] - Programming languages and development skills
-- [[professional.skills-assessment.cloud-infrastructure]] - Cloud platforms and infrastructure technologies  
-- [[professional.skills-assessment.data-analytics]] - Database technologies and data analysis capabilities
+- [[professional.skills-assessment]] – Overall skills inventory and development plan.
+- [[professional.skills-assessment.programming]] – Programming languages, patterns, and craftsmanship habits.
+- [[professional.skills-assessment.cloud-infrastructure]] – Cloud platforms, infrastructure-as-code, and deployment tooling.
+- [[professional.skills-assessment.data-analytics]] – Database technologies, BI tooling, and analytical workflows.
+- [[professional.skills-assessment.raw-data]] – Raw data handling, data quality, and integration capabilities.
 
-## Onboarding Materials
+## Connection to Learning Tracks
 
-Technical onboarding and training resources:
+Workplace development is tightly linked to the learning domains:
 
-- [[professional.onboarding.etl-processes]] - ETL processes and data workflows
-- [[professional.onboarding.ssis-tutorial]] - SQL Server Integration Services tutorial
-- [[professional.onboarding.powerbi]] - Power BI development and reporting
-- [[professional.onboarding.software-setup]] - Software installation and configuration
-- [[professional.onboarding.git-repositories]] - Git repository management and workflows
+- Apply the techniques from [[education.orange-business.data-engineering]] to production ETL and analytics projects.
+- Use [[education.orange-business.onboarding]] as living documentation for environment setup and operational runbooks.
+- Cross-reference with [[education.academic.data-science]] when translating academic theory into practical solutions.
 
-## Professional Skills
+## Next Actions
 
-### Data Engineering
-- **ETL Development** - Extract, Transform, Load process design
-- **SSIS Integration** - SQL Server Integration Services best practices
-- **Data Visualization** - Power BI reporting and dashboard creation
-
-### Development Practices
-- **Version Control** - Git workflows and repository management
-- **Environment Setup** - Development environment configuration
-- **Documentation** - Technical documentation standards
-
-## Learning Integration
-
-This professional content complements the formal learning materials:
-
-- **Practical Application** - Real-world application of [[data-engineering]] concepts
-- **Tool Proficiency** - Hands-on experience with industry tools
-- **Workflow Integration** - Combining theoretical knowledge with practical workflows
-
-## Related Sections
-
-- [[data-engineering]] - Formal course materials and NoSQL concepts
-- [[knowledge]] - Technical setup guides and reference materials
-- [[learning]] - Conference insights and development tools
+- Capture retrospectives for major deliverables and note the competencies exercised.
+- Align quarterly goals with the skills highlighted in the assessment notes.
+- Surface repeatable workflows and promote them back into the onboarding materials.

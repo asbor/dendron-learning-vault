@@ -1,55 +1,35 @@
 ---
 id: root
 title: Learning Notes Vault
-desc: "Personal knowledge base for data engineering and technical learning"
-updated: 1698001200000
+desc: "Personal knowledge base for professional, academic, and self-directed learning"
+updated: 1761162000000
 created: 1595961348801
 ---
 
-# Welcome to My Learning Vault
+# Learning Vault Overview
 
-This Dendron vault contains my personal learning materials, course notes, and technical documentation. It's organized using Dendron's hierarchical structure to make knowledge easily discoverable and interconnected.
+Welcome to the consolidated hub for my professional development, academic studies, and supporting knowledge resources. The vault is intentionally concise—each note captures key takeaways, links deeper references, and stays aligned with active goals.
 
-## Current Content
+## 🚀 Start Here
 
-### Data Engineering Course Materials
-[[data-engineering]] - Complete materials from the Introduction to NoSQL course, including:
+- [[about]] – Personal profile, guiding principles, and current focus areas.
+- [[education]] – Structured learning programs spanning Orange Business academies and university coursework.
+- [[learning]] – Conferences, tools, and self-directed study materials.
+- [[knowledge]] – Technical references, setup guides, and reusable checklists.
+- [[professional]] – Career history, skills assessments, and reflections.
 
-- **[[data-engineering.course]]** - Course structure, modules, and learning path
-- **[[data-engineering.nosql]]** - NoSQL database concepts, types, and architecture  
-- **[[data-engineering.skills-pathway]]** - Full data engineer learning roadmap
+## Education Highlights
 
-### Learning Resources
-[[learning]] - Conference notes, development tools, and educational content:
+- [[education.orange-business.data-engineering]] – Multi-module data engineering curriculum (Unix, Git, Bash, Python, NoSQL).
+- [[education.orange-business.onboarding]] – Environment setup, ETL workflows, SSIS tutorials, and Power BI guides.
+- [[education.academic.data-science]] – University-level data science lectures and exam preparation.
 
-- **[[learning.conferences]]** - Openslava 2024 conference sessions and insights
-- **[[learning.tools]]** - Development tools and documentation utilities
+## Keep Exploring
 
-### Knowledge Base
-[[knowledge]] - Technical guides, setup documentation, and reference materials:
+- Use `Ctrl/Cmd + L` in Dendron to jump directly to any note.
+- Follow wikilinks (`[[note.path]]`) to trace related concepts across domains.
+- Update notes regularly—small, frequent improvements keep the vault trustworthy.
 
-- **[[knowledge.sql]]** - SQL tutorials and database reference materials
-- **[[knowledge.setup]]** - Configuration guides and troubleshooting
+---
 
-### Professional Development
-[[professional]] - Work-related training and technical documentation:
-
-- **[[professional.onboarding]]** - Technical onboarding and skill development
-
-### Getting Started
-- [[tutorial]] - Dendron tutorial and basic operations
-
-## Navigation Tips
-
-- Use `Ctrl+L` / `Cmd+L` to lookup notes
-- Use `[[` to create wikilinks between notes
-- Browse the tree view to see the hierarchical structure
-- Click on any `[[note.reference]]` to navigate directly
-
-## Organization Philosophy
-
-This vault follows a hierarchical naming convention:
-- `subject.topic.subtopic` for detailed organization
-- Clear, descriptive titles for easy scanning
-- Cross-linking between related concepts
-- Reference materials grouped for quick access
+*Built with ❤️ using Dendron for structured knowledge management.*

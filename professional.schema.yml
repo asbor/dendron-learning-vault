@@ -3,12 +3,11 @@ schemas:
   # Professional main schema
   - id: professional
     title: Professional Development
-    desc: "Work-related training and technical documentation"
+    desc: "Work-related experience, skill tracking, and career planning"
     parent: root
     namespace: true
     children:
       - experience
-      - onboarding
       - skills-assessment
 
   # Professional experience
@@ -19,7 +18,7 @@ schemas:
   # Skills assessment
   - id: skills-assessment
     title: Skills Assessment
-    desc: "Personal skills evaluation and professional development planning"
+    desc: "Personal skills evaluation and development planning"
     children:
       - programming
       - cloud-infrastructure
@@ -27,14 +26,3 @@ schemas:
       - security-networking
       - soft-skills
       - methodology
-
-  # Onboarding materials
-  - id: onboarding
-    title: Technical Onboarding
-    desc: "Onboarding materials, processes, and skill development guides"
-    children:
-      - etl-processes
-      - git-repositories
-      - powerbi
-      - software-setup
-      - ssis-tutorial

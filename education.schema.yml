@@ -1,0 +1,10 @@
+version: 1
+schemas:
+  - id: education
+    title: Education & Training
+    desc: "Structured learning programs, academic studies, and onboarding"
+    parent: root
+    namespace: true
+    children:
+      - orange-business
+      - academic
