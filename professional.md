@@ -8,6 +8,12 @@ created: 1698001200000
 
 This section contains professional development materials, onboarding documentation, and work-related technical guides.
 
+## Professional Experience
+
+Career progression and role history:
+
+- [[professional.experience]] - Complete career history from electrical apprentice to senior software engineer
+
 ## Skills Assessment
 
 Comprehensive evaluation of professional skills and competencies:

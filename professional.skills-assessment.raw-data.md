@@ -2,7 +2,7 @@
 id: professional.skills-assessment.raw-data
 title: Skills Assessment Raw Data
 desc: "Complete skills assessment data from October 22, 2025"
-updated: 1729607600000
+updated: 1761154716626
 created: 1729607600000
 ---
 

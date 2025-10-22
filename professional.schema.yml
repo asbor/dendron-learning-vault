@@ -7,8 +7,14 @@ schemas:
     parent: root
     namespace: true
     children:
+      - experience
       - onboarding
       - skills-assessment
+
+  # Professional experience
+  - id: experience
+    title: Professional Experience
+    desc: "Career history and professional roles"
 
   # Skills assessment
   - id: skills-assessment
