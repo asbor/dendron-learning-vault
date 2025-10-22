@@ -1,0 +1,173 @@
+version: 1
+schemas:
+  # Data Science main schema
+  - id: data-science
+    title: Data Science
+    desc: "Data science courses, projects, and learning materials"
+    parent: root
+    namespace: true
+    children:
+      - iu-dlmbdsa01
+      - iau-intelligent-analysis
+      - projects
+      - resources
+
+  # IU Data Science Course - DLMBDSA01
+  - id: iu-dlmbdsa01
+    title: IU Data Science DLMBDSA01
+    desc: "IU International University Data Science Course"
+    children:
+      - introduction
+      - use-cases-evaluation
+      - data-preprocessing
+      - data-processing
+      - mathematical-techniques
+      - ai-techniques
+      - exam-prep
+
+  # Module 1: Introduction to Data Science
+  - id: introduction
+    title: Module 1 - Introduction
+    desc: "Introduction to Data Science concepts and foundations"
+    children:
+      - study-goals
+      - overview
+      - machine-learning
+      - activities
+      - data-sources
+      - descriptive-stats
+      - summary
+      - slides
+
+  # Module 2: Use Cases and Performance Evaluation
+  - id: use-cases-evaluation
+    title: Module 2 - Use Cases & Evaluation
+    desc: "Data Science use cases and performance evaluation methods"
+    children:
+      - study-goals
+      - introduction
+      - dsucs
+      - performance
+      - summary
+      - slides
+
+  # Module 3: Data Pre-processing
+  - id: data-preprocessing
+    title: Module 3 - Data Preprocessing
+    desc: "Data quality, cleansing, and transformation"
+    children:
+      - study-goals
+      - introduction
+      - transmission
+      - quality-cleansing
+      - visualization
+      - summary
+      - slides
+      - codes
+
+  # Module 4: Processing of Data
+  - id: data-processing
+    title: Module 4 - Data Processing
+    desc: "Stages, methods, and types of data processing"
+    children:
+      - study-goals
+      - introduction
+      - stages
+      - methods-types
+      - output-formats
+      - summary
+      - slides
+      - codes
+
+  # Module 5: Selected Mathematical Techniques
+  - id: mathematical-techniques
+    title: Module 5 - Mathematical Techniques
+    desc: "PCA, clustering, regression, and time-series"
+    children:
+      - study-goals
+      - introduction
+      - pca
+      - clustering
+      - regression
+      - time-series
+      - transformations
+      - summary
+      - slides
+      - codes
+
+  # Module 6: AI Techniques
+  - id: ai-techniques
+    title: Module 6 - AI Techniques
+    desc: "Support Vector Machines and Neural Networks"
+    children:
+      - study-goals
+      - introduction
+      - svm
+      - neural-networks
+      - further-approaches
+      - summary
+      - slides
+      - codes
+
+  # Module 7: Exam Preparation
+  - id: exam-prep
+    title: Module 7 - Exam Preparation
+    desc: "Exam examples and guidelines"
+    children:
+      - examples
+      - guidelines
+
+  # IAU Intelligent Data Analysis Course
+  - id: iau-intelligent-analysis
+    title: IAU Intelligent Data Analysis
+    desc: "STU IAU Bachelor - Intelligent Data Analysis course"
+    children:
+      - lectures
+      - exercises
+      - projects
+
+  # IAU Lectures
+  - id: lectures
+    title: Lectures
+    desc: "Lecture materials and presentation slides"
+    children:
+      - course-organization
+      - intro-data-science
+      - python-processing
+      - data-collection
+      - exploratory-analysis
+      - data-cleaning
+      - textual-preprocessing
+      - performance-evaluation
+      - regression
+      - decision-trees
+      - optimization
+      - deep-learning
+      - advanced-topics
+
+  # IAU Exercises
+  - id: exercises
+    title: Practical Exercises
+    desc: "Weekly hands-on exercises and assignments"
+    children:
+      - week-01
+      - week-02
+      - week-03
+      - week-04
+      - week-05
+      - week-06
+      - week-07
+      - week-08
+      - week-09
+      - week-10
+      - week-11
+      - week-12
+
+  # Projects and Resources
+  - id: projects
+    title: Projects
+    desc: "Data science project implementations"
+
+  - id: resources
+    title: Resources
+    desc: "Additional resources, papers, and references"

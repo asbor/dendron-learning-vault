@@ -1,0 +1,78 @@
+INTRODUCTION
+The University offers its students the opportunity to participate in online exams in addition to classroom exams. Video and audio monitoring of students and monitoring of students' PCs are required to conduct these exams. A so-called Proctor (Invigilator) does the respective monitoring live via the Internet. This Proctor has access to the student's PC and their task manager via a meeting application that the student must launch at the beginning of each electronic or online exam in order to be able to check the programs that are open. To ensure that the online exams run as smoothly as possible, the following guidelines must be observed:
+1. Technical Requirements
+a. To take an exam online, students need the following technical equipment:
+− Computer or Laptop
+− Operating System
+o Windows 8 (or a newer version)
+o Mac OS X v10.10 (or a newer version)
+− Browser
+o Firefox (current version, no Beta version)
+o Google Chrome (current version, no Beta version)
+− External webcam or smartphone/tablet with WLAN connection and functioning camera connected to the computer/laptop as an external camera
+− Internet connection: A minimum of 3 Mb/s download and upload speed (to check the internet connection, the proctors are allowed to carry out a speed test)
+− Permission of pop-ups by students is necessary.
+
+b. Students are responsible in particular for:
+− The Internet connection
+− The power supply
+− The uninterrupted functioning of the hardware and software required for the exam.
+− The correct and stable positioning of the external webcam or smartphone/tablet so that both the student's hands and face as well as the keyboard and screen are fully visible in the camera image during the entire duration of the exam. The Proctor only provides assistance and is not responsible for correct positioning, this remains the responsibility of the student.
+− The computer/laptop they are using; in particular, the computer must not be affected by automatic updates or other programs during the exam. Furthermore, the correct, automatic time must be set according to the time zone (incl. automatic adjustment to summer/standard time) in the operating system in which the exam date is to be booked and submitted. Likewise, the correct time zone must be stored in the student profile on the Proctor platform.
+
+− Note: A computer restart is recommended before logging in to the online exam.
+
+2. Exam Preparation
+a. Prerequisite for taking an online exam is the creation of a profile on the Proctor platform as well as the booking of an exam appointment.
+b. For participation in the online exams, a valid, state-approved photo ID (identity card, driving licence or passport) or a student ID with picture is required and must be kept at hand. The identity document presented must be legible and written in Latin script and held up to the camera at the beginning of the exam to identify the examinee and held up to the camera at the beginning of the exam to identify the examinee.
+c. It is the students' responsibility to inform themselves about the requirements and procedures of an online exam before taking it. It is also the students' responsibility to keep their knowledge of this information up to date (all information on the subject of online examinations can be found in the FAQs on the university's online student portal). It is strongly recommended that students take a technical test online exam before taking an online exam for the first time in order to check the technical conditions.
+d. Sufficient knowledge of English is to be expected for taking the online exams to be able to follow the proctor's instructions. The exam is conducted in the language that has been determined for the respective course (German or English).
+e. Students are responsible for their own workstations. You must ensure that the workplace is brightly lit and empty, and that no documents, papers, books, scripts, smartphones, tablet PCs or similar are within reach that are not required for the exam. No headphones, no headset and no smartwatch are allowed during the exam.
+f. Furthermore, students are personally responsible for ensuring that only admissible aids are used in a permissible form. Especially in the case of legal texts, only the PDF versions of the legal texts made available by the university are permissible. The PDFs must be downloaded before the exam starts. Downloading during the exam is not permitted. The use of two pages of blank scrap paper and a non-programmable calculator is only permitted in exams in which these are explicitly allowed as aids. The scrap paper used, and the notes contained on them do not count towards the assessment of the exam and must be destroyed after the exam has been submitted. The physical calculator must be an approved model.
+g. Furthermore, students are responsible for ensuring that there is no interference from third parties, pets, noise, or similar during the exam. No other persons may enter the room or remain in the room while the exam is being conducted. If the possibility exists in the exam room, doors are to be closed before the start of the exam.
+h. The exam tasks to be worked on must be worked on by the students independently and without external assistance.
+i. Only one computer/laptop with an active screen is allowed. The student may not use any technical devices other than their computer/laptop to complete the exam.
+j. The student must close all applications and windows on the computer/laptop that are not required to complete the exam. It is necessary to keep the application for Proctor monitoring open during the entire exam in a window that allows the connection to the Proctor. The following windows can be open in the browser:
+− myCampus
+− Exam
+− PDF, provided that this is a permissible aid for the exam
+Programs running in the background, e.g., Outlook, Dropbox, etc. must also be closed. Also, add-ons such as for example a spell checker must be deactivated. Furthermore, no translation software (such as the automatic translation function) may be active in the browser during the exam entry or during the exam.
+k. The proctor may independently close any programs running in the background, such as Team Viewer, which could be used by students or third parties in an attempt to deceive. The task manager can be used by the proctor for checking at any time, if the proctor's request is not followed, the exam can be graded with a failed attempt. It is imperative to share the entire screen during the exam supervision. Otherwise, the exam may be considered an attempt to deceive. It is also essential to position the external camera, or the smartphone/tablet used for video monitoring in such a way that the student's screen is fully visible in the video monitoring at all times. Otherwise, the exam may be considered an attempt to deceive.
+
+3. Oversight through computer-assisted supervision (Proctor)
+a. The instructions of the Proctor are to be followed in full, unconditionally and at all times. If the proctor's requests are not followed, the student will be considered to have failed the exam. The proctor, as invigilator, records all occurrences that take place during the exam period, without being obliged to inform the students of any conspicuous occurrences.
+b. Students must perform all necessary steps requested by the Proctor so that proper monitoring by the Proctor is ensured, e.g., showing ID/passport, rotating camera, etc.
+c. . The student may not speak during the exam unless communicating with the proctor. The student's face and ears must be clearly visible and not covered, e.g., by caps, scarves, sunglasses, or other parts of the body. In particular, the ears must be uncovered for the duration of an exam by the proctor upon request. The gaze must be directed at the monitor. Exception is the use of a permitted aid that is not available on the screen. The Proctor can, at any time, request that the camera be pointed at the aids being used to verify that no unauthorized documents or aids are being used.
+d. The student is in principle not allowed to stand up during the exam. Going to the toilet during the exam is only allowed in emergencies and if the exam lasts longer than 90 minutes. This should not last longer than 3 minutes. The proctor will log each toilet break. If the duration of the exam is less than 90 minutes or if the toilet break lasts longer than 3 minutes, the exam will continue to be written under reservations.
+e. Students are not allowed to copy, photograph, or communicate the exam questions orally or in writing.
+
+4. Registration and Deregistration of Online Exams
+a. Registration for the exam takes place via myCampus, using a login with password, and is possible at any time. A deadline is not to be observed for this.
+b. The student cannot deregister from the exam. An appointment already booked with the proctor provider can be changed or cancelled up to 24 hours before the appointment.
+c. The exam is saved by clicking on the submit button. After that, there is no possibility to change the exam content. After submitting the exam, the proctor must be informed, and further instructions must be awaited.
+d. At the end of the time allowed for writing, the exam is automatically submitted and saved.
+e. Cancellation less than 24 hours before the date booked with the proctor provider is only possible under certain conditions (force majeure or illness). In case of non-attendance of the exam due to illness or force majeure, this must be communicated to the Exams Office within 24 hours, and appropriate proof must be submitted within 3 working days. In case of illness, the inability to take the exam must be established.
+Withdrawal from an online exam that has already commenced is only possible under strict conditions (force majeure or sudden illness that was not foreseeable prior to the exam). In case of cancellation due to illness, the proctor must be informed immediately. Subsequently, the Exams Office must be informed within 24 hours of the exam date and a medical certificate must be submitted within 3 working days stating the sudden reason for the inability to take the exam. An online exam is considered to have commenced when the exam questions have been released by the proctor with a password.
+The online exam will be graded as " insufficient " within the framework of the General Examination Regulations as amended from time to time if the student fails to attend the appointment booked with the proctor provider without valid reasons.
+If the student keeps the appointment for the online exam but does not start the exam, initially a warning will be issued. In the event that this is repeated, however, the offence will be punished with a temporary suspension from the provision of online exams.
+In the event of technical problems before or during the online exam, this is to be reported to the Exams Office within 24 hours.
+
+5. Consequences in the event of system malfunctions or deception
+a. The video recordings and the protocol are also checked afterwards on a random basis for attempts to deceive and violations of the Guidelines for Online Exams.
+b. Suspicious occurrences during the performance of the exam, which are detected during the exam by the Proctor or by the inspection of the video recordings carried out afterwards and which give reason to suspect possible deception (e.g., suspicious looks in a certain direction), may lead to a failed exam. Even after the exams have been graded and published, attempted deception can be punished by the University. In the event of attempted deception, the exam is deemed to have been failed.
+c. The decision on possible consequences of misconduct and whether the exam is corrected or marked as failed is the responsibility of authorised staff of the Exams Office. They verify the correct completion of the exam by means of the video recording and the protocol of the exam.
+d. The same applies in the event of a disruption that the student causes through gross negligence or deliberately, in particular by not following the Proctor's instructions.
+e. In the event of a serious or a repeated attempt at deception, the Universitymay impose a fine of € 300.00 per deception attempt on the student in addition to failing the exam. Breaches of the guidelines can also lead to consequences for the student. In addition, the University reserves the right to declare a temporary or permanent suspension from offering the online examination, which is effective immediately due to the immediate enforcement interest of the university. In this case, exams are to be taken at the examination centres for the duration of the suspension.
+f. In the case of a clear attempt at deception, the Proctor is authorised to end the exam prematurely and to inform the Exams Office.
+g. Disruptions during the exam for which the student is not responsible must be reported to the Exams Office within 24 hours of the end of the exam.
+h. If the connection to the exam or the proctor is interrupted for less than 5 minutes in total, this will be logged by the proctor and passed on to the Exams Office. However, this incident has no effect on an exam being completed. In this case, the time of the exam continues to elapse.
+i. If the connection to the proctor or the exam software is interrupted from the side of the student for a total of 5 minutes or more, the exam can be removed from the assessment. In this case, the exam will be annulled, provided that the interruption is not the fault of the student. In this case, the student must report to the Exams Office within 24 hours; in addition, the student must independently submit to the Exams Office, within 5 working days after taking the exam, appropriate proof from their internet/ electricity provider confirming that they are not at fault. This proof must contain the name and address of the student as well as the date and time of the disruption.
+j. If the connection is interrupted during the exam, the exam will continue to be written with reservations. The decision as to whether the exam will be assessed or whether it will be considered completed or not will be made by the authorised staff of the Exams Office.
+k. A disconnection on the part of the proctor or the University can be clearly identified. In these cases, the student may repeat the exam at any time without the previous attempt being recognised as an exam attempt. These disruptions must also be reported to the Exams Office by the student within 24 hours of the end of the exam.
+l. If the exam must be retaken, the retake exam can be taken at a Study Centre or online again. A resit exam can always be taken only after the result of the previous exam date has been published.
+
+6. Final Provisions
+a. If the student agrees to these guidelines and the declaration of consent regarding the transfer and storage of data as well as video and audio monitoring in the context of participation in online exams, the student is activated for the exam in the selected subject. The exam must then be taken directly afterwards.
+b. The English version of these Guidelines is a non-binding translation only and is provided for information only. The German language version of the Guidelines is the legally binding wording.
+c. Consent to these guidelines is given electronically and replaces written consent. By clicking on the confirmation button, the student is legally bound to the agreement.
+\n\n---\n\n## Navigation\n\n- **Parent**: [[data-science.iu-dlmbdsa01.exam-prep]]\n- **Course**: [[data-science.iu-dlmbdsa01]]\n
