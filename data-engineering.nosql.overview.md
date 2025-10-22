@@ -61,31 +61,33 @@ graph TD
 ### Timeline
 
 ```mermaid
-timeline
+gantt
     title NoSQL Evolution Timeline
+    dateFormat X
+    axisFormat %s
 
-    1970-2000  : Relational Dominance
-              : IBM IMS (Hierarchical)
-              : Oracle, DB2, SQL Server, MySQL
+    section Relational Era
+    RDBMS Dominance (Oracle, DB2, SQL Server)  :1970, 2000
+    IBM IMS (Hierarchical)                     :1970, 2000
 
-    Late 1990s : Dot-com Boom
-              : Scale from thousands to millions of users
-              : Performance & Availability Critical
+    section Internet Era
+    Dot-com Boom & Scale Challenges           :1995, 2005
+    Performance & Availability Critical       :1998, 2005
 
-    Early 2000s : Innovation Period
-               : Google MapReduce Paper
-               : Amazon Dynamo Paper
-               : Open Source Movement
+    section Innovation Period
+    Google MapReduce Paper                     :2004, 2006
+    Amazon Dynamo Paper                        :2007, 2008
+    Open Source Movement                       :2000, 2010
 
-    Late 2000s  : NoSQL Emergence
-               : Apache Cassandra
-               : MongoDB, CouchDB
-               : Redis, Neo4j, HBase
+    section NoSQL Emergence
+    Apache Cassandra                          :2008, 2010
+    MongoDB, CouchDB                          :2009, 2011
+    Redis, Neo4j, HBase                       :2009, 2012
 
-    2010s-Present : DBaaS Era
-                  : IBM Cloudant
-                  : Amazon DynamoDB
-                  : Managed Services
+    section DBaaS Era
+    IBM Cloudant                              :2010, 2025
+    Amazon DynamoDB                           :2012, 2025
+    Managed Services                          :2015, 2025
 ```
 
 ### Key Milestones
