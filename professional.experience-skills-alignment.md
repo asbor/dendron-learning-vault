@@ -2,7 +2,7 @@
 id: professional.experience-skills-alignment
 title: Experience-Skills Alignment Analysis
 desc: "Analysis of how professional experience aligns with current skills assessment"
-updated: 1729607600000
+updated: 1761155126184
 created: 1729607600000
 ---
 

@@ -20,6 +20,60 @@ schemas:
       - introduction
       - overview
       - completion-tips
+      - unix-workbench
+      - git-github
+      - bash-integration
+      - python-analysis
+
+  # Unix Workbench (Module 1)
+  - id: unix-workbench
+    title: Unix Workbench
+    desc: "Unix/Linux fundamentals: regex, bash, pipes, and make"
+    namespace: true
+    children:
+      - regex
+      - bash-fundamentals
+      - pipes
+      - make
+      - variables
+      - environment
+      - functions
+
+  # Git and GitHub (Module 2)
+  - id: git-github
+    title: Git and GitHub
+    desc: "Version control fundamentals and GitHub workflows"
+    namespace: true
+    children:
+      - getting-started
+      - help-logs-diffs
+      - branching
+      - commands
+      - cheat-sheet
+      - projects
+
+  # Bash/Make/Git Integration (Module 3)
+  - id: bash-integration
+    title: Bash Integration
+    desc: "Integration of Bash, Make, Git, and GitHub workflows"
+    namespace: true
+    children:
+      - overview
+      - workflows
+
+  # Python Data Analysis (Module 4)
+  - id: python-analysis
+    title: Python Data Analysis
+    desc: "Data analysis fundamentals using Python"
+    namespace: true
+    children:
+      - fundamentals
+      - csv-handling
+      - functions
+      - dictionaries
+      - lists
+      - loops
+      - lambda
 
   # NoSQL database concepts
   - id: nosql
