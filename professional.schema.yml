@@ -1,0 +1,21 @@
+version: 1
+schemas:
+  # Professional main schema
+  - id: professional
+    title: Professional Development
+    desc: "Work-related training and technical documentation"
+    parent: root
+    namespace: true
+    children:
+      - onboarding
+
+  # Onboarding materials
+  - id: onboarding
+    title: Technical Onboarding
+    desc: "Onboarding materials, processes, and skill development guides"
+    children:
+      - etl-processes
+      - git-repositories
+      - powerbi
+      - software-setup
+      - ssis-tutorial

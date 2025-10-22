@@ -1,0 +1,41 @@
+version: 1
+schemas:
+  # Learning main schema
+  - id: learning
+    title: Learning Resources
+    desc: "Conference notes, tools, and educational content"
+    parent: root
+    namespace: true
+    children:
+      - conferences
+      - tools
+
+  # Conferences
+  - id: conferences
+    title: Conferences
+    desc: "Conference notes, sessions, and insights"
+    namespace: true
+    children:
+      - openslava-2024
+
+  # Openslava 2024 conference
+  - id: openslava-2024
+    title: Openslava 2024
+    desc: "Sessions and talks from Openslava 2024 conference"
+    children:
+      - keynotes
+      - agentic-ai-and-multi-agent-system-dynamics
+      - datastreamingwithkafkaandflink
+      - hack-your-ai-with-prompting
+      - he-untold-truth-about-event-driven-overkill
+      - state-of-nosql-in-a-world-with-ai
+
+  # Tools and utilities
+  - id: tools
+    title: Development Tools
+    desc: "Development tools, utilities, and documentation helpers"
+    children:
+      - collection
+      - markdown-confluence
+      - markdown-pdf
+      - mermaid-filter

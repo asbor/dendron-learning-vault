@@ -1,0 +1,29 @@
+version: 1
+schemas:
+  # Knowledge main schema
+  - id: knowledge
+    title: Knowledge Base
+    desc: "Technical guides, setup documentation, and reference materials"
+    parent: root
+    namespace: true
+    children:
+      - sql
+      - setup
+
+  # SQL knowledge
+  - id: sql
+    title: SQL Database Knowledge
+    desc: "SQL tutorials, reference materials, and database guides"
+    children:
+      - sql-statements
+      - sql_crash_course
+
+  # Setup and configuration
+  - id: setup
+    title: Setup & Configuration
+    desc: "Configuration guides, troubleshooting, and environment setup"
+    children:
+      - mcp-wsl-integration
+      - mermaid-obsidian-fix
+      - obsidian-mcp
+      - sql-server-connection

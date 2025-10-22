@@ -1,0 +1,85 @@
+version: 1
+schemas:
+  # Data Engineering main schema
+  - id: data-engineering
+    title: Data Engineering
+    desc: "Data engineering courses, concepts, and skills development"
+    parent: root
+    namespace: true
+    children:
+      - course
+      - nosql
+      - skills-pathway
+      - note-taking
+
+  # Course materials
+  - id: course
+    title: Course Materials
+    desc: "Structured course content and learning materials"
+    children:
+      - introduction
+      - overview
+      - completion-tips
+
+  # NoSQL database concepts
+  - id: nosql
+    title: NoSQL Databases
+    desc: "NoSQL database concepts, types, and architecture patterns"
+    namespace: true
+    children:
+      - types
+      - architecture
+      - examples
+      - reference
+      - overview
+      - characteristics
+      - migration
+
+  # NoSQL types
+  - id: types
+    title: NoSQL Database Types
+    desc: "Different types of NoSQL databases"
+    children:
+      - overview
+      - key-value
+      - document
+      - column
+      - graph
+
+  # NoSQL architecture
+  - id: architecture
+    title: NoSQL Architecture
+    desc: "Architecture patterns and concepts for NoSQL systems"
+    children:
+      - cap-theorem
+      - acid-vs-base
+      - distributed
+      - deployment
+
+  # NoSQL examples and patterns
+  - id: examples
+    title: NoSQL Examples
+    desc: "Practical examples and implementation patterns"
+    children:
+      - mongodb-patterns
+      - relational-vs-document
+      - vector-databases
+
+  # NoSQL reference materials
+  - id: reference
+    title: NoSQL Reference
+    desc: "Glossaries, summaries, and reference materials"
+    children:
+      - glossary-basic
+      - glossary-distributed
+      - summary
+
+  # Skills pathway
+  - id: skills-pathway
+    title: Skills Pathway
+    desc: "Data engineer learning roadmap and career development"
+
+  # Note taking
+  - id: note-taking
+    title: Note Taking
+    desc: "Note-taking strategies and methodologies for learning"

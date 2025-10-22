@@ -1,14 +1,51 @@
--
-    id: root
-    title: root
-    desc: ""
-    type: schema
-    updated: 1594075339610
-    created: 1594075339610
-    body: ""
-    fname: root.schema
-    data: {}
-    stub: false
-    custom: {}
+version: 1
+schemas:
+  # Root domain schema
+  - id: root
+    title: Learning Vault Root
+    desc: "Main entry point for the learning vault hierarchy"
     parent: root
-    children: []
+    children:
+      - data-engineering
+      - learning
+      - knowledge
+      - professional
+      - tutorial
+
+  # Data Engineering domain
+  - id: data-engineering
+    title: Data Engineering
+    desc: "Data engineering courses, concepts, and skills development"
+    children:
+      - course
+      - nosql
+      - skills-pathway
+      - note-taking
+
+  # Learning domain  
+  - id: learning
+    title: Learning Resources
+    desc: "Conference notes, tools, and educational content"
+    children:
+      - conferences
+      - tools
+
+  # Knowledge domain
+  - id: knowledge
+    title: Knowledge Base
+    desc: "Technical guides, setup documentation, and reference materials"
+    children:
+      - sql
+      - setup
+
+  # Professional domain
+  - id: professional
+    title: Professional Development
+    desc: "Work-related training and technical documentation"
+    children:
+      - onboarding
+
+  # Tutorial (standalone note)
+  - id: tutorial
+    title: Tutorial
+    desc: "Dendron tutorial and basic operations"
