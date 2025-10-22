@@ -6,29 +6,22 @@ schemas:
     desc: "Main entry point for the learning vault hierarchy"
     parent: root
     children:
-      - data-engineering
+      - about
+      - education
       - learning
       - knowledge
       - professional
       - tutorial
 
-  # Data Engineering domain
-  - id: data-engineering
-    title: Data Engineering
-    desc: "Data engineering courses, concepts, and skills development"
-    children:
-      - course
-      - nosql
-      - skills-pathway
-      - note-taking
+  # Personal profile and goals
+  - id: about
+    title: About Me
+    desc: "Personal profile, goals, and guiding principles"
 
-  # Learning domain  
+  # Learning domain (existing schema expands this)
   - id: learning
     title: Learning Resources
-    desc: "Conference notes, tools, and educational content"
-    children:
-      - conferences
-      - tools
+    desc: "Conference notes, tools, and self-directed learning materials"
 
   # Knowledge domain
   - id: knowledge
@@ -41,9 +34,10 @@ schemas:
   # Professional domain
   - id: professional
     title: Professional Development
-    desc: "Work-related training and technical documentation"
+    desc: "Work experience, skills assessment, and career planning"
     children:
-      - onboarding
+      - experience
+      - skills-assessment
 
   # Tutorial (standalone note)
   - id: tutorial

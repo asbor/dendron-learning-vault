@@ -97,5 +97,5 @@ This document contains my comprehensive skills assessment from October 22, 2025,
 ## Navigation
 
 - **Parent**: [[professional]] - Professional Development
-- **Related**: [[professional.onboarding]] - Technical Onboarding
-- **See Also**: [[data-engineering.skills-pathway]] - Data Engineering Learning Path
+- **Related**: [[education.orange-business.onboarding]] - Technical Onboarding
+- **See Also**: [[education.orange-business.data-engineering.skills-pathway]] - Data Engineering Learning Path

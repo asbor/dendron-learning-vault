@@ -1,0 +1,6 @@
+# 6.2 Introduction
+
+In the realm of supervised learning, classification is the second prominent approach. It involves creating a prediction model from the input dataset to determine the class or category to which a new data record belongs. In this unit, we delve into one of the widely used classification methods, Support Vector Machines (SVM). Additionally, we provide an in-depth exploration of the artificial neural network (ANN), a renowned nonlinear regression model.
+
+We will also touch upon two important concepts: fuzzy logic and genetic algorithms. Fuzzy logic helps us gain a deeper and more comprehensive understanding of a dataset, aiding in identifying missing values. Genetic algorithms, on the other hand, are employed to search for and optimize potential solutions to dataset-related issues in an adaptive manner, progressively reducing uncertainty through ongoing process monitoring. Lastly, we'll introduce Naïve Bayes classification, another common method that leverages the Bayes theorem to classify data records based on conditional probability criteria.
+\n\n---\n\n## Navigation\n\n- **Parent**: [[education.academic.data-science.iu-dlmbdsa01.ai-techniques]]\n- **Course**: [[education.academic.data-science.iu-dlmbdsa01]]\n

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Successfully migrated and integrated the complete foundational data engineering course materials from the `data-engineering-coursea` directory, adding 4 comprehensive modules to the Dendron vault.
+Successfully migrated and integrated the complete foundational data engineering course materials from the `education.orange-business.data-engineering.course` directory, adding 4 comprehensive modules to the Dendron vault.
 
 ## Modules Migrated
 
@@ -36,7 +36,7 @@ Successfully migrated and integrated the complete foundational data engineering 
 
 ## Schema Enhancement
 
-Updated `data-engineering.schema.yml` to include:
+Updated `education.orange-business.schema.yml` to include:
 - 4 new foundational module schemas
 - 24 new child schema definitions
 - Hierarchical organization supporting autocomplete
@@ -44,7 +44,7 @@ Updated `data-engineering.schema.yml` to include:
 
 ## Course Structure Integration
 
-Enhanced `data-engineering.course.md` to provide:
+Enhanced `education.orange-business.data-engineering.course.md` to provide:
 - **Complete learning pathway** from beginner to advanced
 - **Progressive skill building** across all modules
 - **Flexible tracks** for different experience levels
@@ -53,7 +53,7 @@ Enhanced `data-engineering.course.md` to provide:
 ## Technical Implementation
 
 ### Dendron Best Practices Applied
-- **Hierarchical naming**: Consistent `data-engineering.course.module.topic` structure
+- **Hierarchical naming**: Consistent `education.orange-business.data-engineering.course.module.topic` structure
 - **Cross-references**: Comprehensive linking between related topics
 - **Schema definitions**: Full autocomplete and navigation support
 - **Markdown consistency**: Proper formatting and structure

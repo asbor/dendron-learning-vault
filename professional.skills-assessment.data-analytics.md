@@ -74,7 +74,7 @@ This section details my data and analytics skills assessment from October 22, 20
 
 #### Power BI
 - **Status**: Covered in onboarding materials
-- **Reference**: [[professional.onboarding.powerbi]]
+- **Reference**: [[education.orange-business.onboarding.powerbi]]
 - **Focus**: Business intelligence and reporting visualization
 
 ## Artificial Intelligence & Machine Learning
@@ -145,4 +145,4 @@ This section details my data and analytics skills assessment from October 22, 20
 
 - **Parent**: [[professional.skills-assessment]] - Personal Skills Assessment
 - **Related**: [[professional.skills-assessment.programming]] - Programming & Development Skills
-- **See Also**: [[data-engineering]] - Data Engineering Course Materials
+- **See Also**: [[education.orange-business.data-engineering]] - Data Engineering Course Materials

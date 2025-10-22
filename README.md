@@ -1,56 +1,36 @@
 # Dendron Learning Vault
 
-This is my personal learning vault built with [Dendron](https://www.dendron.so/), containing course materials, technical notes, and learning resources organized in a hierarchical knowledge base.
+Personal knowledge base that captures my professional journey, academic studies, and ongoing skill development. Everything is organized with [Dendron](https://www.dendron.so/) so that notes stay searchable, linked, and easy to maintain as the vault grows.
 
-## Contents
+## 📚 Top-Level Domains
 
-### Data Engineering Course
-Complete materials from the **Introduction to NoSQL** course:
+| Area | Purpose |
+| --- | --- |
+| [[about]] | Personal profile, guiding principles, and current focus areas. |
+| [[education]] | Structured learning programs at Orange Business and university coursework for the B.Sc. in Computer Science. |
+| [[learning]] | Conference takeaways, tooling guides, and self-directed study aids. |
+| [[knowledge]] | Technical references, environment setup instructions, and reusable checklists. |
+| [[professional]] | Work experience, competency tracking, and reflections that align with career goals. |
 
-- **Course Materials**: Introduction, overview, and completion tips
-- **NoSQL Fundamentals**: Core concepts and characteristics  
-- **Database Types**: Key-value, document, column, and graph databases
-- **Architecture**: Distributed systems, CAP theorem, ACID vs BASE
-- **Migration**: Strategies for moving from RDBMS to NoSQL
-- **Examples**: Real-world patterns and implementation guides
-- **Reference**: Glossaries and summary materials
+## 🎓 Education Snapshot
 
-### Structure
+- **Orange Business** → [[education.orange-business.data-engineering]] (multi-module academy) & [[education.orange-business.onboarding]] (environment + workflow guides).
+- **University** → [[education.academic.data-science]] consolidates IU and STU data science lectures, study goals, and exam prep.
 
-The vault follows Dendron's hierarchical organization:
-```
-data-engineering/
-├── course/           # Course structure and materials
-├── nosql/            # NoSQL concepts and technologies
-│   ├── types/        # Database types (key-value, document, etc.)
-│   ├── architecture/ # Distributed systems and design patterns
-│   ├── examples/     # Implementation patterns and use cases
-│   ├── migration/    # RDBMS to NoSQL migration strategies
-│   └── reference/    # Glossaries and summaries
-├── skills-pathway    # Complete learning roadmap
-└── note-taking       # Documentation strategies
-```
+## 🔁 How Notes Evolve
 
-## Navigation
+1. Capture concise summaries while learning or delivering work.
+2. Link related concepts across domains (e.g., academic theory ↔️ project implementation).
+3. Revisit and refine—notes are living documents rather than static archives.
+4. Reference original repositories when large datasets or notebooks are required.
 
-- **Root**: `root.md` - Main landing page and navigation
-- **Course Entry**: `data-engineering.md` - Main course materials index
-- **Quick Access**: Use Dendron's lookup (`Ctrl+L`) to find any note quickly
+## 🛠 Workflow
 
-## Tools and Workflow
-
-- **Editor**: VS Code with Dendron extension
-- **Format**: Markdown with YAML frontmatter
-- **Linking**: Wikilink syntax `[[note.reference]]` for easy navigation
-- **Organization**: Hierarchical naming for logical structure
-
-## Usage
-
-1. Open in VS Code with Dendron extension
-2. Use `Ctrl+L` / `Cmd+L` for note lookup
-3. Navigate via tree view or wikilinks
-4. Create new notes following the hierarchical naming convention
+- **Editor**: VS Code with the Dendron extension.
+- **Format**: Markdown + YAML frontmatter for metadata.
+- **Navigation**: Wikilinks (`[[note.path]]`), Lookup (`Ctrl/Cmd + L`), and the Dendron tree.
+- **Version Control**: Managed through Git for history and collaboration.
 
 ---
 
-Built with ❤️ using Dendron for structured knowledge management.
+*Built with ❤️ using Dendron for structured knowledge management.*

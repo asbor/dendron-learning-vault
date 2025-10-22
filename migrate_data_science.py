@@ -93,13 +93,13 @@ def migrate_iu_course():
 
             # Create Dendron filename
             file_slug = slugify(md_file.stem)
-            dendron_filename = f"data-science.iu-dlmbdsa01.{dendron_name}.{file_slug}.md"
+            dendron_filename = f"education.academic.data-science.iu-dlmbdsa01.{dendron_name}.{file_slug}.md"
             target_path = os.path.join(DENDRON_ROOT, dendron_filename)
 
             # Add navigation footer
             content += f"\\n\\n---\\n\\n## Navigation\\n\\n"
-            content += f"- **Parent**: [[data-science.iu-dlmbdsa01.{dendron_name}]]\\n"
-            content += f"- **Course**: [[data-science.iu-dlmbdsa01]]\\n"
+            content += f"- **Parent**: [[education.academic.data-science.iu-dlmbdsa01.{dendron_name}]]\\n"
+            content += f"- **Course**: [[education.academic.data-science.iu-dlmbdsa01]]\\n"
 
             # Write to Dendron
             Path(target_path).write_text(content, encoding='utf-8')
@@ -137,7 +137,7 @@ def migrate_iau_course():
 
         # Create Dendron filename
         file_slug = slugify(md_file.stem.replace('IAU-', ''))
-        dendron_filename = f"data-science.iau-intelligent-analysis.lectures.{file_slug}.md"
+        dendron_filename = f"education.academic.data-science.iau-intelligent-analysis.lectures.{file_slug}.md"
         target_path = os.path.join(DENDRON_ROOT, dendron_filename)
 
         # Enhance content with header and navigation
@@ -145,8 +145,8 @@ def migrate_iau_course():
 
         content = header + content
         content += f"\\n\\n---\\n\\n## Navigation\\n\\n"
-        content += f"- **Parent**: [[data-science.iau-intelligent-analysis.lectures]]\\n"
-        content += f"- **Course**: [[data-science.iau-intelligent-analysis]]\\n"
+        content += f"- **Parent**: [[education.academic.data-science.iau-intelligent-analysis.lectures]]\\n"
+        content += f"- **Course**: [[education.academic.data-science.iau-intelligent-analysis]]\\n"
 
         # Write to Dendron
         Path(target_path).write_text(content, encoding='utf-8')

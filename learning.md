@@ -1,43 +1,38 @@
 ---
 id: learning
 title: Learning Resources
-desc: "Conference notes, tools, and educational content"
-updated: 1698001200000
+desc: "Conferences, tools, and reference material that augment formal training"
+updated: 1761162000000
 created: 1698001200000
 ---
 
-This section contains learning resources, conference notes, and educational materials that complement the formal course content.
+# Learning Resources
+
+Supporting material that keeps my skills current outside of structured programs.
 
 ## Conference Notes
 
 ### Openslava 2024
-Conference sessions and presentations from the Openslava developer conference:
+Captured insights from the Openslava conference, highlighting emerging practices in AI and event-driven systems:
 
-- [[learning.conferences.openslava-2024.agentic-ai-and-multi-agent-system-dynamics]] - AI agent systems and dynamics
-- [[learning.conferences.openslava-2024.datastreamingwithkafkaandflink]] - Data streaming with Kafka and Flink
-- [[learning.conferences.openslava-2024.hack-your-ai-with-prompting]] - AI prompting techniques
-- [[learning.conferences.openslava-2024.keynotes]] - Conference keynote summaries
-- [[learning.conferences.openslava-2024.state-of-nosql-in-a-world-with-ai]] - NoSQL and AI integration
-- [[learning.conferences.openslava-2024.he-untold-truth-about-event-driven-overkill]] - Event-driven architecture insights
+- [[learning.conferences.openslava-2024.agentic-ai-and-multi-agent-system-dynamics]] – Agentic AI and coordination patterns.
+- [[learning.conferences.openslava-2024.datastreamingwithkafkaandflink]] – Streaming architectures with Kafka and Flink.
+- [[learning.conferences.openslava-2024.hack-your-ai-with-prompting]] – Prompt engineering strategies.
+- [[learning.conferences.openslava-2024.keynotes]] – Keynote summaries and takeaways.
+- [[learning.conferences.openslava-2024.state-of-nosql-in-a-world-with-ai]] – NoSQL positioning in AI-centric stacks.
+- [[learning.conferences.openslava-2024.he-untold-truth-about-event-driven-overkill]] – Trade-offs in event-driven design.
 
-## Development Tools
+## Tools & Workflows
 
-Personal collection of development and documentation tools:
+Personal toolkit for documentation and automation:
 
-- [[learning.tools.collection]] - Overview of development tools collection
-- [[learning.tools.markdown-confluence]] - Markdown to Confluence converter
-- [[learning.tools.markdown-pdf]] - Markdown to PDF converter  
-- [[learning.tools.mermaid-filter]] - Mermaid diagram processing tools
+- [[learning.tools.collection]] – Overview of commonly used utilities.
+- [[learning.tools.markdown-confluence]] – Publishing Markdown notes to Confluence.
+- [[learning.tools.markdown-pdf]] – Converting Markdown into shareable PDFs.
+- [[learning.tools.mermaid-filter]] – Enhancing Mermaid diagrams for presentations.
 
-## Learning Progression
+## How It Fits
 
-1. **Conference Insights** - Real-world industry perspectives and trends
-2. **Tool Mastery** - Practical development and documentation tools
-3. **Knowledge Application** - Applying conference learnings to development work
-4. **Community Engagement** - Staying current with industry developments
-
-## Related Sections
-
-- [[data-engineering]] - Formal course materials and structured learning
-- [[knowledge]] - Technical guides and setup documentation
-- [[professional]] - Work-related onboarding and professional development
+- Use conference notes to identify trends that influence [[professional]] priorities.
+- Integrate new tools into [[education.orange-business.onboarding]] when they become part of the standard workflow.
+- Cross-reference specialized topics back to [[education.orange-business.data-engineering]] and [[education.academic.data-science]] for deeper study.

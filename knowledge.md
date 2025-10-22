@@ -41,6 +41,6 @@ Technical setup and configuration documentation:
 
 ## Related Sections
 
-- [[data-engineering]] - Formal database and data engineering education
+- [[education.orange-business.data-engineering]] - Formal database and data engineering education
 - [[learning]] - Conference notes and development tools
 - [[professional]] - Work-specific technical documentation
