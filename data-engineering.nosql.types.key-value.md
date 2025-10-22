@@ -72,24 +72,33 @@ graph LR
 ### Architecture Characteristics
 
 ```mermaid
-mindmap
-  root((Key-Value Architecture))
-    Hash Map
-      Simple Structure
-      Direct Key Access
-      Fast Lookups
-    Scalability
-      Easy Sharding
-      Horizontal Scaling
-      Range-based Distribution
-    Operations
-      CRUD Operations
-      Atomic Single Key
-      No Complex Queries
-    Value Blob
-      Opaque Storage
-      Any Data Type
-      Limited Indexing
+graph TB
+    A[Key-Value Architecture] --> B[Hash Map]
+    A --> C[Scalability]
+    A --> D[Operations]
+    A --> E[Value Blob]
+    
+    B --> B1[Simple Structure]
+    B --> B2[Direct Key Access]
+    B --> B3[Fast Lookups]
+    
+    C --> C1[Easy Sharding]
+    C --> C2[Horizontal Scaling]
+    C --> C3[Range-based Distribution]
+    
+    D --> D1[CRUD Operations]
+    D --> D2[Atomic Single Key]
+    D --> D3[No Complex Queries]
+    
+    E --> E1[Opaque Storage]
+    E --> E2[Any Data Type]
+    E --> E3[Limited Indexing]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ---

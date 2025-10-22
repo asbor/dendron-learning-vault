@@ -46,25 +46,34 @@ graph LR
 ### Core Characteristics
 
 ```mermaid
-mindmap
-  root((Document Database))
-    Flexible Schema
-      No Fixed Structure
-      Different Documents
-      Evolving Fields
-    Document Format
-      JSON Documents
-      XML Documents
-      BSON Support
-    Query Capabilities
-      Content Indexing
-      Range Lookups
-      Text Search
-      MapReduce Analytics
-    Scalability
-      Horizontal Scaling
-      Document Sharding
-      Distributed Storage
+graph TB
+    A[Document Database] --> B[Flexible Schema]
+    A --> C[Document Format]
+    A --> D[Query Capabilities]
+    A --> E[Scalability]
+    
+    B --> B1[No Fixed Structure]
+    B --> B2[Different Documents]
+    B --> B3[Evolving Fields]
+    
+    C --> C1[JSON Documents]
+    C --> C2[XML Documents]
+    C --> C3[BSON Support]
+    
+    D --> D1[Content Indexing]
+    D --> D2[Range Lookups]
+    D --> D3[Text Search]
+    D --> D4[MapReduce Analytics]
+    
+    E --> E1[Horizontal Scaling]
+    E --> E2[Document Sharding]
+    E --> E3[Distributed Storage]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ---
