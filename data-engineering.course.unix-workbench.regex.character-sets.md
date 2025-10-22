@@ -51,7 +51,7 @@ grep -E '[abc]' small.txt
 
 Output:
 
-![Character set [abc] example](../../../assets/images/unix-workbench/image.png)
+![Character set [abc] example](assets/images/unix-workbench/image.png)
 
 ### Example 2: Lowercase Range
 
@@ -63,7 +63,7 @@ grep -E '[a-z]' small.txt
 
 Output:
 
-![Lowercase range [a-z] example](../../../assets/images/unix-workbench/image-1.png)
+![Lowercase range [a-z] example](assets/images/unix-workbench/image-1.png)
 
 ### Example 3: Uppercase Range
 
@@ -75,7 +75,7 @@ grep -E '[A-Z]' small.txt
 
 Output:
 
-![Uppercase range [A-Z] example](../../../assets/images/unix-workbench/image-2.png)
+![Uppercase range [A-Z] example](assets/images/unix-workbench/image-2.png)
 
 ### Example 4: Alphanumeric
 
@@ -87,7 +87,7 @@ grep -E '[a-zA-Z0-9]' small.txt
 
 Output:
 
-![Alphanumeric range [a-zA-Z0-9] example](../../../assets/images/unix-workbench/image-3.png)
+![Alphanumeric range [a-zA-Z0-9] example](assets/images/unix-workbench/image-3.png)
 
 ## Summary
 

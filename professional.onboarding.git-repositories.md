@@ -23,4 +23,4 @@ created: 1761144402000
 
 [https://raviteja8.wordpress.com/2018/11/15/git-extensions-authentication-issue/#:~:text=Process%20to%20edit%20your%20old,again%2C%20it%27ll%20work.](https://raviteja8.wordpress.com/2018/11/15/git-extensions-authentication-issue/#:~:text=Process%20to%20edit%20your%20old,again%2C%20it%27ll%20work.)
 
-![alt text](image-10.png)
+![Git repositories overview](assets/images/professional/onboarding/image-10.png)

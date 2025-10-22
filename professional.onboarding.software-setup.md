@@ -79,19 +79,19 @@ for API, .NET7
 
 Once the Flexi application is installed, you will be prompted with a notification when you start up excel
 
-![alt text](image.png)
+![Flexi notification prompt](assets/images/professional/onboarding/image.png)
 
-![alt text](image-3.png)
+![Flexi security warning](assets/images/professional/onboarding/image-3.png)
 
 click yes
 
-![alt text](image-1.png)
+![Trust prompt](assets/images/professional/onboarding/image-1.png)
 
-TODO: Missleading aproval request
+TODO: Misleading approval request
 
-![alt text](image-2.png)
+![Approval dialog](assets/images/professional/onboarding/image-2.png)
 
-![alt text](image-4.png)
+![Final confirmation](assets/images/professional/onboarding/image-4.png)
 
 ## 1.7 - VisualStudio Extensions
 
@@ -106,7 +106,7 @@ TODO: Missleading aproval request
 
 Microsoft SQL Server Analysis Services (SSAS or S.S.A.S. or MSAS or AS) is an online analytical processing (OLAP) and data mining tool in Microsoft SQL Server. SSAS is used as a tool by organizations to analyze and make sense of information possibly spread out across multiple databases, or in disparate tables or files.
 
-![alt text](image-5.png)
+![SQL Server Analysis Services](assets/images/professional/onboarding/image-5.png)
 
 ## 1.8 Power BI
 

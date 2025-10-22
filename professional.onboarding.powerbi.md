@@ -12,4 +12,4 @@ created: 1761144402000
 Power BI is a business analytics tool that allows you to visualize your data and share insights across your organization, or embed them in an app or website. Connect to hundreds of data sources and bring your data to life with live dashboards and reports.
 
 - **Microsoft fabric**
-![alt text](image-11.png)
+![PowerBI interface](assets/images/professional/onboarding/image-11.png)

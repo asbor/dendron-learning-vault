@@ -1,16 +1,16 @@
 ---
 id: learning.conferences.openslava-2024.hack-your-ai-with-prompting
-title: ![alt text](image-21.png)
+title: Hack Your AI with Prompting
 desc: "Conference session notes from Openslava 2024"
 updated: 1761144402000
 created: 1761144402000
 ---
 
-![alt text](image-21.png)
+![Hack Your AI with Prompting](assets/images/learning/conferences/openslava-2024/image-21.png)
 
 [https://github.com/karpathy/llama2.com](https://github.com/karpathy/llama2.com)
 
-![alt text](image-22.png)
+![AI as smart autocomplete](assets/images/learning/conferences/openslava-2024/image-22.png)
 
 **AutoGen studio**
 
@@ -20,6 +20,6 @@ Game:
 
 it is a AI 
 
-![alt text](image-23.png)
+![Tokens and context length](assets/images/learning/conferences/openslava-2024/image-23.png)
 
 [https://tinyurl.com/datcaigamepre](https://tinyurl.com/datcaigamepre)
