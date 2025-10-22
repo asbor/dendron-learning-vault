@@ -73,81 +73,97 @@ Advanced Topics in Data Science and Artificial Intelligence
 
 ### Practice - Weekly Exercises
 
-Hands-on Jupyter notebook exercises organized by week:
+Hands-on Jupyter notebook exercises organized by week. These interactive notebooks are maintained in the original repository and should be run directly with Jupyter.
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-01]]
+**Exercise Repository Location**: `/mnt/c/repos/stu-iau_b-intelligent-data-analysis/2022-2023/exercises/`
+
+#### Week 01 - Python Fundamentals
 
 - Introduction to Python
 - Python fundamentals and setup
 - Homework assignments
+- Notebooks: `IAU_011_python.md`, `IAU_01_DU.md`, `IAU_01_DU_python_continue.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-02]]
+#### Week 02 - NumPy, Pandas, SciPy
 
 - Pandas for data manipulation
 - NumPy for numerical computing
 - SciPy for scientific computing
+- Notebooks: `IAU_021_pandas.md`, `IAU_022_numpy.md`, `IAU_023_scipy.md`, `IAU_02_DU_numpy_pandas.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-03]]
+#### Week 03 - Exploratory Data Analysis
 
-- Exploratory Data Analysis (EDA)
-- Visualization with Iris dataset
+- EDA with visualization
+- Iris dataset exploration
 - Statistical analysis
+- Notebooks: `IAU_031_EDA_vizualisation_iris.md`, `IAU_032_EDA.md`, `IAU_03_DU_EDA_again.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-04]]
+#### Week 04 - Advanced Pandas
 
 - Advanced Pandas operations
 - Data integration techniques
 - Complex queries
+- Notebooks: `IAU_041_pandas.md`, `IAU_042_pandas_integration.md`, `IAU_043_pandas_again.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-05]]
+#### Week 05 - Statistical Testing
 
-- Statistical testing and hypotheses
-- Descriptive statistics
-- Inferential statistics
+- Statistical hypothesis testing
+- Descriptive and inferential statistics
+- T-tests, ANOVA, etc.
+- Notebooks: `IAU_051_EDA_stats.md`, `IAU_052_stats.md`, `IAU_053_stats_auta.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-06]]
+#### Week 06 - Feature Engineering
 
 - Outlier detection and treatment
 - Missing value handling
-- Feature selection
+- Feature selection techniques
 - Dimensionality reduction (PCA)
+- Notebooks: `IAU_061_outlier_missing_transform.md`, `IAU_062_feature_selection.md`, `IAU_063_dimension_reduction.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-07]]
+#### Week 07 - Natural Language Processing
 
-- Natural Language Processing (NLP)
-- NLTK toolkit
+- Text preprocessing and NLP fundamentals
+- NLTK toolkit usage
 - Sentiment analysis
+- Notebooks: `IAU_071_nlp.md`, `IAU_072_nltk_sentiment_analysis.md`, `IAU_073_nlp.md`, `IAU_074_nlp.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-08]]
+#### Week 08 - Imbalanced Data
 
 - Handling imbalanced datasets
-- Sampling techniques
+- Sampling techniques (over/under sampling)
 - SMOTE and other approaches
+- Notebooks: `IAU_084_imbalanced.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-09]]
+#### Week 09 - Regression Models
 
-- Linear regression
-- Logistic regression
-- Model evaluation
+- Linear regression implementation
+- Logistic regression for classification
+- Model evaluation metrics
+- Notebooks: `IAU_091_linear_logistic_regression.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-10]]
+#### Week 10 - Decision Trees and Ensembles
 
 - Decision tree algorithms
 - Post-pruning techniques
 - Random forests
-- Hyperparameter tuning
+- Hyperparameter tuning with GridSearch
+- Notebooks: `IAU_101_decision_trees.md`, `IAU_102_decission_trees-post_prunning.md`, `IAU_103_random-forest_hyperparameter-tuning.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-11]]
+#### Week 11 - Optimization and Simulations
 
 - Genetic algorithms
 - Monte Carlo simulations
-- Spark implementation
+- Spark implementation for distributed computing
+- Notebooks: `IAU_111_genetic_algorithm.md`, `IAU_112_monte_carlo_PI.md`, `IAU_113_monte_carlo_PI_spark.md`
 
-#### [[data-science.iau-intelligent-analysis.exercises.week-12]]
+#### Week 12 - Deep Learning
 
-- CNN for hand-writing recognition
+- CNN for hand-writing recognition (MNIST)
 - LSTM for time series forecasting
-- Deep learning frameworks
+- Deep learning frameworks (TensorFlow/Keras)
+- Notebooks: `IAU_CNN_hand_writing_recognition.md`, `IAU_LSTM_time_series_forecasting.md`
+
+> **Note**: These exercises are Jupyter notebooks (`.ipynb` files converted to `.md` format in the repo) and should be run interactively. Clone or navigate to the exercise repository to work through them with Jupyter Lab or VS Code's notebook interface.
 
 ## Learning Outcomes
 
