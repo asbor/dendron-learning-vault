@@ -48,20 +48,27 @@ Document-store databases (document-oriented databases) store data in document fo
 ### 🔧 Characteristics
 
 ```mermaid
-mindmap
-  root((Document Stores))
-    Schema Flexibility
-      Varying Structures
-      Easy Updates
-      Evolving Requirements
-    CRUD Operations
-      Read Intensive
-      Write Intensive
-      Whole Document Retrieval
-    Scalability
-      Horizontal Scaling
-      Sharding Support
-      Cluster Distribution
+graph TB
+    A[Document Stores] --> B[Schema Flexibility]
+    A --> C[CRUD Operations]
+    A --> D[Scalability]
+
+    B --> B1[Varying Structures]
+    B --> B2[Easy Updates]
+    B --> B3[Evolving Requirements]
+
+    C --> C1[Read Intensive]
+    C --> C2[Write Intensive]
+    C --> C3[Whole Document Retrieval]
+
+    D --> D1[Horizontal Scaling]
+    D --> D2[Sharding Support]
+    D --> D3[Cluster Distribution]
+
+    style A fill:#4CAF50,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 | Feature | Description |
